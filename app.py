@@ -9,6 +9,7 @@ import pptx
 import io
 import PyPDF2
 from urllib.parse import urlparse
+os.environ["STREAMLIT_SERVER_HEADLESS"] = "true"
 
 # --- 1. SET PAGE CONFIG (Must be first) ---
 st.set_page_config(page_title="Cyber Guard Pro", layout="wide")
